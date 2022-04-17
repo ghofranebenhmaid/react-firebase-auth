@@ -1,0 +1,18 @@
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: $background;
+    display: grid;
+	place-content: center;
+
+    position: relative;
+    @include breakpoint(400px, max) {
+			    background-color: #fff;
+
+		}
+    .container{
+        .content{
+
+        }
+    }
+}
